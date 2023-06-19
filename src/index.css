@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.body{
+  background-color: rgb(0,0,0);
+}
+
+button{
+  background-color: inherit;
+}
+
+.nav-bar{
+  /* background-color: rgba(179, 179, 179, 1); */
+  background-color: rgba(255, 255, 255, 0.253);
+}
+
+.arr-back,
+.arr-forward{
+  background-color: rgb(13,19,19);
+  width: 2rem;
+  height: 2rem;
+}
+
+.install-app{
+  background-color: rgb(10,15,15);
+  padding: 0.1rem 0.7rem;
+}
+
+.install-app span{
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22.4px;
+}
+
+.install{
+  font-size: 14px;
+}
+
+.profile{
+  background-color: rgb(11,14,14);
+  width: 1.9rem;
+  height: 1.9rem;
+}
