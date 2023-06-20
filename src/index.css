@@ -46,7 +46,8 @@ button{
 }
 
 .content-container-div{
-  height: 83.5vh;
+  height: 85vh;
+  padding-top: 4rem;
 }
 
 .arr-back,
@@ -173,6 +174,49 @@ button{
   font-weight: 700;
 }
 
+.greetings-text{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.r-playlist-btn{
+  width: 31.5%;
+  background-color: rgb(57,48,57);
+}
+
+.play-pix{
+  width: 5rem;
+  height: 5rem;
+}
+
+.artistName{
+  font-weight: 600;
+}
+
+.made-for-text{
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.made-for-text:hover{
+  text-decoration: underline;
+}
+
+.daily-mix-div{
+  width: 22%;
+  background-color: red;
+}
+
+.daily-mix-inner-div{
+  width: 88%;
+}
+
+.d-img-div{
+  height: 11rem;
+}
+
 ::-webkit-scrollbar {
   width: 10px; /* Adjust the width as per your preference */
   /* display: none; */
@@ -191,6 +235,5 @@ button{
 }
 
 .content-div{
-  height: 70vh;
-  background-color: red;
+  width: 95%;
 }
