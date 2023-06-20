@@ -3,7 +3,7 @@ import React from 'react'
 function SideNav() {
     return (
         <>
-            <div className='text-white w-25 bg-danger m-2 position-fixed side-nav-div'>
+            <div className='text-white w-25 m-2 position-fixed side-nav-div'>
                 <div className='home-nav-div mb-2 py-3 rounded d-flex align-items-center justify-content-center'>
                     <button className='col-sm-10 border-0 text-white'>
                         <div className='d-flex align-items-center mb-3'>
@@ -16,8 +16,8 @@ function SideNav() {
                         </div>
                     </button>
                 </div>
-                <div className='bg-success rounded'>
-                    <div className='py-2'>
+                <div className='rounded playlist-nav-div'>
+                    <div className='py-2 shadow'>
                         <div className='mx-auto col-sm-10 mb-3 d-flex align-items-center justify-content-between'>
                             <button className='library-btn border-0 text-white p-0 d-flex align-items-center'>
                                 <div className='me-3'><i className="bi bi-collection-fill fs-4 library-icon"></i></div>
@@ -38,12 +38,95 @@ function SideNav() {
                         </div>
                     </div>
                     <div className='overflow-auto scroll-div'>
-                        <div className='col-sm-11 bg-warning mx-auto'>
-                            <div className='d-flex align-items-center justify-content-between'>
-                                <div><i className="bi bi-search fs-5 search-icon2"></i></div>
+                        <div className=''>
+                            <div className='col-sm-11 mx-auto d-flex align-items-center justify-content-between mb-2'>
+                                <div><i className="bi bi-search search-icon2"></i></div>
                                 <div className='d-flex align-items-center'>
-                                    <div>Recents</div>
-                                    <div><i class="bi bi-caret-down-fill"></i></div>
+                                    <div className='me-2 recent-text'>Recents</div>
+                                    <div className='mt-1'><i class="bi bi-caret-down-fill drop-icon"></i></div>
+                                </div>
+                            </div>
+                            <div className='artist-div mx-auto'>
+                                <div className='artist-inner-div d-flex align-items-center rounded p-2'>
+                                    <div className='me-2 img-div d-flex align-items-center justify-content-center'>
+                                        <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
+                                    </div>
+                                    <div>
+                                        <div className='artist-name-text'>Burna Boy</div>
+                                        <div className='artist-text'>Artist</div>
+                                    </div>
+                                </div>
+                                <div className='artist-inner-div d-flex align-items-center rounded p-2'>
+                                    <div className='me-2 img-div d-flex align-items-center justify-content-center'>
+                                        <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
+                                    </div>
+                                    <div>
+                                        <div className='artist-name-text'>Burna Boy</div>
+                                        <div className='artist-text'>Artist</div>
+                                    </div>
+                                </div>
+                                <div className='artist-inner-div d-flex align-items-center rounded p-2'>
+                                    <div className='me-2 img-div d-flex align-items-center justify-content-center'>
+                                        <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
+                                    </div>
+                                    <div>
+                                        <div className='artist-name-text'>Burna Boy</div>
+                                        <div className='artist-text'>Artist</div>
+                                    </div>
+                                </div>
+                                <div className='artist-inner-div d-flex align-items-center rounded p-2'>
+                                    <div className='me-2 img-div d-flex align-items-center justify-content-center'>
+                                        <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
+                                    </div>
+                                    <div>
+                                        <div className='artist-name-text'>Burna Boy</div>
+                                        <div className='artist-text'>Artist</div>
+                                    </div>
+                                </div>
+                                <div className='artist-inner-div d-flex align-items-center rounded p-2'>
+                                    <div className='me-2 img-div d-flex align-items-center justify-content-center'>
+                                        <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
+                                    </div>
+                                    <div>
+                                        <div className='artist-name-text'>Burna Boy</div>
+                                        <div className='artist-text'>Artist</div>
+                                    </div>
+                                </div>
+                                <div className='artist-inner-div d-flex align-items-center rounded p-2'>
+                                    <div className='me-2 img-div d-flex align-items-center justify-content-center'>
+                                        <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
+                                    </div>
+                                    <div>
+                                        <div className='artist-name-text'>Burna Boy</div>
+                                        <div className='artist-text'>Artist</div>
+                                    </div>
+                                </div>
+                                <div className='artist-inner-div d-flex align-items-center rounded p-2'>
+                                    <div className='me-2 img-div d-flex align-items-center justify-content-center'>
+                                        <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
+                                    </div>
+                                    <div>
+                                        <div className='artist-name-text'>Burna Boy</div>
+                                        <div className='artist-text'>Artist</div>
+                                    </div>
+                                </div>
+                                <div className='artist-inner-div d-flex align-items-center rounded p-2'>
+                                    <div className='me-2 img-div d-flex align-items-center justify-content-center'>
+                                        <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
+                                    </div>
+                                    <div>
+                                        <div className='artist-name-text'>Burna Boy</div>
+                                        <div className='artist-text'>Artist</div>
+                                    </div>
+                                </div>
+                                <div className='artist-inner-div d-flex align-items-center rounded p-2'>
+                                    <div className='me-2 img-div d-flex align-items-center justify-content-center'>
+                                        <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
+                                    </div>
+                                    <div>
+                                        <div className='artist-name-text'>Burna Boy</div>
+                                        <div className='artist-text'>Artist</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

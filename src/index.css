@@ -72,7 +72,8 @@ button{
   height: 1.9rem;
 }
 
-.home-nav-div{
+.home-nav-div,
+.playlist-nav-div{
   background-color: rgb(18,18,18);
 }
 
@@ -133,6 +134,38 @@ button{
 
 .scroll-div{
   height: 51.7vh;
+}
+
+.search-icon2{
+  font-size: 15px;
+}
+
+.recent-text{
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.drop-icon{
+  font-size: 14px;
+}
+
+.img-div{
+  width: 3rem;
+  height: 3rem;
+}
+
+.artist-div{
+  width: 95%;
+}
+
+.artist-inner-div:hover{
+  background-color: rgb(58, 57, 57);
+  cursor: pointer;
+}
+
+.artist-name-text{
+  font-size: 16px;
+  font-weight: 700;
 }
 
 ::-webkit-scrollbar {
