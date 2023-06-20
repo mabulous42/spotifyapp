@@ -12,17 +12,36 @@ code {
     monospace;
 }
 
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
 .body{
   background-color: rgb(0,0,0);
+  /* background-color: white; */
+  height: 100vh;
 }
 
 button{
-  background-color: inherit;
+  background-color: rgba(255, 255, 255, 0.171);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.nav-bar-div{
+  width: 73.5%;
+  margin-left: 26.5%;
 }
 
 .nav-bar{
   /* background-color: rgba(179, 179, 179, 1); */
   background-color: rgba(255, 255, 255, 0.253);
+  width: 99%;
+}
+
+.side-nav-div{
+  height: 85vh;
 }
 
 .arr-back,
@@ -51,4 +70,88 @@ button{
   background-color: rgb(11,14,14);
   width: 1.9rem;
   height: 1.9rem;
+}
+
+.home-nav-div{
+  background-color: rgb(18,18,18);
+}
+
+.home-text,
+.search-text,
+.library-text{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25.6px;
+}
+
+.search-text,
+.search-icon,
+.library-text,
+.library-icon,
+.arrow-icon,
+.plus-icon{
+  color: rgb(179,179,179);
+}
+
+.search-div:hover .search-text,
+.search-div:hover .search-icon,
+.library-btn:hover .library-icon,
+.library-btn:hover .library-text{
+  color: white;
+}
+
+.arrow-div{
+  width: 2rem;
+  height: 2rem;
+}
+
+.arrow-div:hover{
+  background-color: rgb(48, 47, 47);
+}
+
+.arrow-div:hover .plus-icon,
+.arrow-div:hover .arrow-icon{
+  color: white;
+}
+
+.plus-icon{
+  margin-bottom: 2px;
+  margin-right: 2px;
+}
+
+.playlist-artist-div span{
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 500;
+  padding: 5px 10px;
+  background-color: rgb(35,35,35);
+}
+
+.playlist-artist-div span:hover{
+  background-color: rgb(58, 57, 57);
+}
+
+.scroll-div{
+  height: 51.7vh;
+}
+
+::-webkit-scrollbar {
+  width: 10px; /* Adjust the width as per your preference */
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(18,18,18); /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white; /* Color of the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.content-div{
+  height: 70vh;
+  background-color: red;
 }
