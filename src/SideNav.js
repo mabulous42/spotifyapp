@@ -3,7 +3,7 @@ import React from 'react'
 function SideNav() {
     return (
         <>
-            <div className='text-white w-25 m-2 position-fixed side-nav-div'>
+            <div className='text-white w-25 m-2 position-fixed side-nav-div rounded'>
                 <div className='home-nav-div mb-2 py-3 rounded d-flex align-items-center justify-content-center'>
                     <button className='col-sm-10 border-0 text-white'>
                         <div className='d-flex align-items-center mb-3'>
@@ -17,7 +17,7 @@ function SideNav() {
                     </button>
                 </div>
                 <div className='rounded playlist-nav-div'>
-                    <div className='py-2 shadow'>
+                    <div className='py-2 shadow-lg'>
                         <div className='mx-auto col-sm-10 mb-3 d-flex align-items-center justify-content-between'>
                             <button className='library-btn border-0 text-white p-0 d-flex align-items-center'>
                                 <div className='me-3'><i className="bi bi-collection-fill fs-4 library-icon"></i></div>
@@ -37,7 +37,7 @@ function SideNav() {
                             </button>
                         </div>
                     </div>
-                    <div className='overflow-auto scroll-div'>
+                    <div className='overflow-auto scroll-div py-2'>
                         <div className=''>
                             <div className='col-sm-11 mx-auto d-flex align-items-center justify-content-between mb-2'>
                                 <div><i className="bi bi-search search-icon2"></i></div>
