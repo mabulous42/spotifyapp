@@ -5,7 +5,7 @@ import HomeSection2 from './HomeSection2'
 function ContentContainer() {
     return (
         <>
-            <div className='content-container-div bg-success me-2 overflow-auto rounded'>
+            <div className='content-container-div me-2 overflow-auto rounded'>
                 <div className='content-div text-white mx-auto'>
                     <HomeSection1 />
                     <HomeSection2 />

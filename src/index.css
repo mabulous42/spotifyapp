@@ -36,8 +36,7 @@ button{
 }
 
 .nav-bar{
-  /* background-color: rgba(179, 179, 179, 1); */
-  background-color: rgba(255, 255, 255, 0.253);
+  background-color: rgba(255, 255, 255, 0.048);
   width: 99%;
 }
 
@@ -46,8 +45,9 @@ button{
 }
 
 .content-container-div{
-  height: 85vh;
+  height: 88vh;
   padding-top: 4rem;
+  background-color: rgb(18,18,18);
 }
 
 .arr-back,
@@ -205,8 +205,13 @@ button{
 }
 
 .daily-mix-div{
-  width: 22%;
-  background-color: red;
+  width: 23%;
+  background-color: rgb(23,23,23);
+  cursor: pointer;
+}
+
+.daily-mix-div:hover{
+  background-color: rgb(53, 52, 52);
 }
 
 .daily-mix-inner-div{
@@ -215,6 +220,17 @@ button{
 
 .d-img-div{
   height: 11rem;
+}
+
+.d-mix-text{
+  font-size: 16px;
+  line-height: 25.6px;
+  font-weight: 700;
+}
+
+.daily-mix-inner-div span{
+  color: rgb(179,179,179);
+  font-size: 14px;
 }
 
 ::-webkit-scrollbar {
