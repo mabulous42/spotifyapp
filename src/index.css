@@ -46,19 +46,18 @@ button{
 
 .content-container-div{
   height: 88vh;
-  padding-top: 4rem;
   background-color: rgb(18,18,18);
 }
 
 .arr-back,
 .arr-forward{
-  background-color: rgb(13,19,19);
+  background-color: rgba(13, 19, 19, 0.699);
   width: 2rem;
   height: 2rem;
 }
 
 .install-app{
-  background-color: rgb(10,15,15);
+  background-color: rgba(10, 15, 15, 0.781);
   padding: 0.1rem 0.7rem;
 }
 
@@ -73,7 +72,7 @@ button{
 }
 
 .profile{
-  background-color: rgb(11,14,14);
+  background-color: rgba(11, 14, 14, 0.801);
   width: 1.9rem;
   height: 1.9rem;
 }
@@ -89,6 +88,11 @@ button{
   font-size: 16px;
   font-weight: 700;
   line-height: 25.6px;
+}
+
+.home-text{
+  color: white;
+  text-decoration: none;
 }
 
 .search-text,
@@ -231,6 +235,46 @@ button{
 .daily-mix-inner-div span{
   color: rgb(179,179,179);
   font-size: 14px;
+  font-weight: 500;
+}
+
+.playlist-img-div{
+  width: 15rem;
+  height: 15rem;
+}
+
+.artist-playing h1{
+  font-size: 96px;
+  font-weight: 900;
+}
+
+.verified{
+  color: rgb(61,145,244);
+}
+
+.listener{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.playing-artist-songs{
+  background-color: rgb(5,85,185);
+  padding: 5rem 0 0 2rem;
+}
+
+.h-s-1{
+  padding-top: 5rem;
+  width: 95%;
+}
+
+.sect2{
+  width: 95%;
+}
+
+.artist-link{
+  text-decoration: none;
+  color: white;
 }
 
 ::-webkit-scrollbar {
@@ -250,6 +294,3 @@ button{
   background-color: #555; /* Color of the scrollbar thumb on hover */
 }
 
-.content-div{
-  width: 95%;
-}

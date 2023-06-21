@@ -1,14 +1,17 @@
 import React from 'react'
 import HomeSection1 from './HomeSection1'
 import HomeSection2 from './HomeSection2'
+import HomeSection3 from './HomeSection3'
 
-function ContentContainer() {
+function ContentContainer(props) {
     return (
         <>
-            <div className='content-container-div me-2 overflow-auto rounded'>
-                <div className='content-div text-white mx-auto'>
-                    <HomeSection1 />
-                    <HomeSection2 />
+            <div className={props.containerDivOne}>
+                <div className={props.containerDivTwo}>
+                    {props.HomeSection1}
+                    {props.HomeSection2}
+                    {props.HomeSection3}
+                    {props.ArtistPlaylist}
                 </div>
             </div>
         </>

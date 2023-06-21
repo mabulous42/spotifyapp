@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import ArtistPlaylist from './ArtistPlaylist';
+import Page2 from './Page2';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +14,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<App />}/>
+        <Route path='/artist' element={<Page2 />}/>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

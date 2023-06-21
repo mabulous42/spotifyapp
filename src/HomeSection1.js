@@ -3,8 +3,8 @@ import RecentPlaylist from './RecentPlaylist'
 
 function HomeSection1() {
   return (
-    <div className=''>
-      <h2 className='greetings-text mb-3'>Good Evening</h2>
+    <div className='h-s-1 mx-auto'>
+      <h2 className='greetings-text mb-3'>Good Morning</h2>
       <div className='d-flex flex-wrap'>
         <RecentPlaylist myClass="mb-3 text-white me-4 rounded d-flex align-items-center r-playlist-btn" myImage={require("./image/zino.jpg")} myName="Zinoleesky"/>
         <RecentPlaylist myClass="mb-3 text-white me-4 rounded d-flex align-items-center r-playlist-btn" myImage={require("./image/seyi-vibez.jpg")} myName="Seyi Vibez"/>

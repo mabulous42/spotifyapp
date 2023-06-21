@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function SideNav() {
     return (
@@ -8,7 +9,7 @@ function SideNav() {
                     <button className='col-sm-10 border-0 text-white'>
                         <div className='d-flex align-items-center mb-3'>
                             <div className='me-4'><i className="bi bi-house-door-fill fs-4"></i></div>
-                            <span className='home-text mt-1'>Home</span>
+                            <Link className='home-text mt-1' to={"/"}>Home</Link>
                         </div>
                         <div className='d-flex align-items-center search-div'>
                             <div className='me-4'><i className="bi bi-search fs-5 search-icon"></i></div>
@@ -60,10 +61,10 @@ function SideNav() {
                                     <div className='me-2 img-div d-flex align-items-center justify-content-center'>
                                         <img src={require("./image/burna-boy.jpg")} alt="" className='w-100 rounded-circle'/>
                                     </div>
-                                    <div>
-                                        <div className='artist-name-text'>Burna Boy</div>
+                                    <Link className='artist-link' to={"/artist"}>
+                                        <div className='artist-name-text'>T.I BLAZE</div>
                                         <div className='artist-text'>Artist</div>
-                                    </div>
+                                    </Link>
                                 </div>
                                 <div className='artist-inner-div d-flex align-items-center rounded p-2'>
                                     <div className='me-2 img-div d-flex align-items-center justify-content-center'>

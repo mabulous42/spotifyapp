@@ -4,6 +4,7 @@ import Nav from './Nav';
 import HomeSection1 from './HomeSection1';
 import SideNav from './SideNav';
 import ContentContainer from './ContentContainer';
+import Content from './Content';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <SideNav />
           <Nav />
         </div>
-          <ContentContainer />
+          <Content />
       </div>
     </>
   );
