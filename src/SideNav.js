@@ -1,16 +1,16 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function SideNav() {
+function SideNav(props) {
     return (
         <>
             <div className='text-white w-25 m-2 position-fixed side-nav-div rounded'>
                 <div className='home-nav-div mb-2 py-3 rounded d-flex align-items-center justify-content-center'>
                     <button className='col-sm-10 border-0 text-white'>
-                        <div className='d-flex align-items-center mb-3'>
-                            <div className='me-4'><i className="bi bi-house-door-fill fs-4"></i></div>
-                            <Link className='home-text mt-1' to={"/"}>Home</Link>
-                        </div>
+                        <Link className='d-flex align-items-center mb-3 home-div' to={"/"}>
+                            <div className={props.homeIconDivStyle}><i className="bi bi-house-door-fill fs-4"></i></div>
+                            <span className={props.homeTextStyle}>Home</span>
+                        </Link>
                         <div className='d-flex align-items-center search-div'>
                             <div className='me-4'><i className="bi bi-search fs-5 search-icon"></i></div>
                             <span className='search-text ms-1'>Search</span>

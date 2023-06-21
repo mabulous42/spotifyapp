@@ -84,13 +84,16 @@ button{
 
 .home-text,
 .search-text,
-.library-text{
+.library-text,
+.home-textP2{
   font-size: 16px;
   font-weight: 700;
   line-height: 25.6px;
 }
 
-.home-text{
+.home-text,
+.home-textP2,
+.home-div{
   color: white;
   text-decoration: none;
 }
@@ -100,14 +103,18 @@ button{
 .library-text,
 .library-icon,
 .arrow-icon,
-.plus-icon{
+.plus-icon,
+.home-textP2,
+.home-icon-div2{
   color: rgb(179,179,179);
 }
 
 .search-div:hover .search-text,
 .search-div:hover .search-icon,
 .library-btn:hover .library-icon,
-.library-btn:hover .library-text{
+.library-btn:hover .library-text,
+.home-div:hover .home-textP2,
+.home-div:hover .home-icon-div2{
   color: white;
 }
 

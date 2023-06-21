@@ -11,7 +11,7 @@ function App() {
     <>
       <div className='body pt-2'>
         <div className='fixed-top'>
-          <SideNav />
+          <SideNav homeTextStyle='home-text mt-1' homeIconDivStyle='me-4 home-icon-div'/>
           <Nav />
         </div>
           <Content />

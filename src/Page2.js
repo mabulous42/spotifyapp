@@ -9,7 +9,7 @@ function Page2() {
         <>
             <div className='body pt-2'>
                 <div className='fixed-top'>
-                    <SideNav />
+                    <SideNav homeTextStyle='home-textP2 mt-1' homeIconDivStyle='me-4 home-icon-div2'/>
                     <Nav />
                 </div>
                 <ContentContainer containerDivOne='content-container-div me-2 overflow-auto rounded' containerDivTwo='content-div text-white mx-auto'
